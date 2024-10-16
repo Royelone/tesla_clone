@@ -1,0 +1,79 @@
+/* backgound photo cybertruck */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+    background: url('background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+
+    nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+/* background photo positioning */
+    .logo{
+        margin-left: 18px;
+        cursor: pointer;
+
+    }
+/* middle text */
+    nav ul{
+        flex: 1;
+        text-align: center;
+    }
+   /* targets the nav function */
+   /* nav is the parent 
+   ul the child 
+   li the child of ul */
+    nav ul li{ 
+        /* changes text from uo down to left to right */
+        display: inline-block;
+        /* separate distance between texts */
+        margin: 10px 20px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: black;
+/* top right content on first page styling code */
+    }
+    nav .btn{
+        text-decoration: none;
+        color: black;
+        margin-right: 18px;
+        padding: 10px;
+    }
+    .content{
+        flex: 1;
+        text-align: center;
+        padding: 50px;
+    }
+    .links{
+        position: absolute;
+        margin-top: 38%;
+        margin-left: 38%;
+    }
+    /* button for custom order colour & styling */
+    .links .custom{
+        margin: 5px;
+        padding: 10px;
+        text-decoration: none;
+        color: #fff;
+        background-color: rgb(37, 37, 37);
+        border-radius: 30px;
+    }
+    /* button for existing inventory colour & styling  */
+    .links .existing{
+        padding: 10px;
+        margin: 5px;
+        text-decoration: none;
+        color: rgb(37, 37, 37);
+        background-color: #fff;
+        border-radius: 30px;
+    }
